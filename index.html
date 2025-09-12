@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reco Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-section">
+            <div class="header">
+                <h2>🎬 Reco Hub</h2>
+                <p>Find your next favorite movie, series, or drama!</p>
+            </div>
+
+            <div class="text-center mb-4">
+                <h4>Get a Random Recommendation</h4>
+                <p class="text-muted">Click the button below to discover something new!</p>
+                <button class="btn btn-primary btn-custom">Surprise Me!</button>
+            </div>
+
+            <div class="section-title">
+                <h4 class="text-center mb-3">Add Your Own Recommendation</h4>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Movie, Series, or Drama Title">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Category (e.g., Sci-Fi, Thriller, Comedy)">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" placeholder="Why do you recommend this? (Optional)"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success btn-custom">Submit Recommendation</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="right-section">
+        </div>
+    </div>
+    <div id="recommendation-display" class="text-center mt-4"></div>
+
+    <script src="index.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

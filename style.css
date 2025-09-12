@@ -1,0 +1,65 @@
+
+.bg-primary {
+    background-color: #f8f9fa;
+  color: #212529;
+  padding: 20px;
+}
+.text-white {
+    color: #ffffff;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+body {
+    background: linear-gradient(135deg, #007bff, #00a8ff);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+}
+
+.left-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.right-section {
+    flex: 1;
+    background: url('https://thumbs.dreamstime.com/b/silhouette-cinema-camera-yellow-banner-poster-background-black-projector-light-rays-vector-illustration-80155856.jpg') no-repeat center;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    color: #fff;
+    background: linear-gradient(90deg, #0066ff, #003399);
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.btn-custom {
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.section-title {
+    margin-top: 40px;
+}
